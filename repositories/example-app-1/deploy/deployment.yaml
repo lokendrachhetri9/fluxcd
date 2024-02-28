@@ -20,6 +20,7 @@ spec:
       labels:
         app: example-app-1
     spec:
+      imagePullPolicy: Never
       containers:
       - name: example-app-1
         image: example-app-1:0.0.1
